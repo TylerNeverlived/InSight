@@ -20,8 +20,13 @@ body {
   max-width: 1255px;
   padding-left: 15px;
   padding-right: 15px;
+  padding-bottom: 80px;
   margin: 0 auto;
   outline: 2px solid red;
+}
+
+.section {
+  padding-bottom: 80px;
 }
 
 .list {
@@ -48,11 +53,19 @@ body {
   .container {
     max-width: 734px;
   }
+
+  .section {
+    padding-bottom: 100px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
   .container {
     max-width: 1110px;
+  }
+
+  .section {
+    padding-bottom: 150px;
   }
 }
 
