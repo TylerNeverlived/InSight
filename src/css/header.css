@@ -126,7 +126,6 @@ margin-left: 12px;
 
 .mob-container {
   display: flex;
-  
 }
 
 .mob-nav{
@@ -143,7 +142,6 @@ margin-left: 12px;
   position: absolute;
   top: 50%;
   transform: translateY(50%);
-  
 }
 
 .mob-nav-item {
@@ -241,10 +239,4 @@ margin-left: 12px;
 
 @media screen (min-width: 1440px) {
 
-}
-
-.element-img {
-  /* position: absolute;
-  bottom: 0;
-  left: 0; */
 }
