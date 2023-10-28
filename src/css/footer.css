@@ -1,0 +1,14 @@
+.footer-background {
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 0;
+  padding: 72px 0;
+  background-image: url(../img/elements.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  max-width: 365px;
+}
