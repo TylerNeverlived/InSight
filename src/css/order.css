@@ -1,0 +1,145 @@
+/** -------------IMAGE----------------- */
+.background-image {
+    width: 375px;
+height: 550px;
+flex-shrink: 0;
+    background-image: url(../img/order/girl-in-green-vyshyvanka.jpg); 
+    background-repeat: no-repeat;
+    margin-bottom: 80px;
+}
+
+/**--------------Title----------------- */
+
+.your-order{
+  background-color: #1C2225;
+
+}
+.container-title-form{
+  display: flex;
+padding: 0px 20px 1px 20px;
+flex-direction: column;
+justify-content: center;
+gap: 40px;
+}
+.title-form{
+  color: var(--white, #FCF9F9);
+font-family: Manrope;
+font-size: 32px;
+font-style: normal;
+width: 335px;
+} 
+.title-form-span{
+  color: #ECD979;
+}
+/** --------------Form---------------- */
+.inputs{
+  display: flex;
+flex-direction: column;
+gap: 20px;
+align-self: stretch;
+}
+.input-wrapper{
+  display: flex;
+width: 335px;
+flex-direction: column;
+gap: 12px;
+}
+
+.input-group__input{
+  display: flex;
+width: 335px;
+padding: 14px 16px;
+align-items: flex-start;
+gap: 8px;
+border-radius: 15px;
+border: 1px solid rgba(252, 249, 249, 0.10);
+background-color: transparent;
+color: rgba(252, 249, 249, 0.50);
+font-family: Manrope;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.28px;
+}
+
+.input-group__input:focus{
+  border: 1px solid rgba(252, 249, 249, 0.60);
+  color: #FCF9F9;
+}
+
+.input-group__input:hover{
+  border: 1px solid rgba(252, 249, 249, 0.60);
+  color: #FCF9F9;
+}
+
+.comment-wrapper{
+  display: flex;
+width: 335px;
+flex-direction: column;
+align-items: flex-start;
+gap: 6px;
+}
+
+.textarea-form{
+  display: flex;
+width: 335px;
+height: 196px;
+padding: 14px 16px;
+align-items: flex-start;
+gap: 8px;
+border-radius: 15px;
+border: 1px solid rgba(252, 249, 249, 0.10);
+background-color: transparent;
+color: rgba(252, 249, 249, 0.50);
+font-family: Manrope;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.28px;
+}
+
+.textarea-form:focus{
+ border: 1px solid rgba(252, 249, 249, 0.60);
+  color: #FCF9F9;
+}
+
+.textarea-form:hover{
+  border: 1px solid rgba(252, 249, 249, 0.60);
+  color: #FCF9F9;
+}
+
+/**--------------Button--------------- */
+
+.button{
+  display: flex;
+  width: 145px;
+height: 49px;
+padding: 14px 36px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 15px;
+border: 1px solid rgba(252, 249, 249, 0.10);
+background-color: transparent;
+color: var(--white, #FCF9F9);
+font-family: Manrope;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -0.56px;
+text-transform: uppercase;
+margin: 0 auto;
+}
+
+.button:focus{
+  border-radius: 15px;
+border: 1px solid #ECD979;
+}
+
+.button:hover{
+  border-radius: 15px;
+border: 1px solid #ECD979;
+}
