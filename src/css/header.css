@@ -1,6 +1,6 @@
 .header {
-padding-right: 20px;
-padding-left: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .logo-svg {
@@ -28,7 +28,7 @@ padding-left: 20px;
 }
 
 .address-list-item {
-  color: #FCF9F9;
+  color: #fcf9f9;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -40,7 +40,7 @@ padding-left: 20px;
   align-items: center;
   gap: 10px;
   border-radius: 15px;
-  border: 1px solid rgba(252, 249, 249, 0.10);
+  border: 1px solid rgba(252, 249, 249, 0.1);
   transition-property: border;
   transition-duration: 0.5s;
   transition-timing-function: ease-in-out;
@@ -48,7 +48,7 @@ padding-left: 20px;
 
 .address-list-item:hover,
 .address-list-item:focus {
-  border: 1px solid #ECD979;
+  border: 1px solid #ecd979;
 }
 
 .address-list {
@@ -56,30 +56,30 @@ padding-left: 20px;
 }
 
 .header-nav-item {
-    color:#FCF9F9;
-    font-family: Manrope;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.28;
-    text-transform: uppercase;
-    cursor: pointer;
-      transition-property: color;
-      transition-duration: 0.5s;
-      transition-timing-function: ease-in-out;
+  color: #fcf9f9;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.28;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition-property: color;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
 }
 
 .header-nav-item:hover,
 .header-nav-item:focus {
-  color: #ECD979;
+  color: #ecd979;
 }
 
 .header-soc-item {
   display: flex;
   padding: 8px;
   border-radius: 15px;
-  border: 1px solid rgba(252, 249, 249, 0.10);
-  background: rgba(252, 249, 249, 0.10);
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  background: rgba(252, 249, 249, 0.1);
   cursor: pointer;
   transition-property: background-color, border;
   transition-duration: 0.5s;
@@ -89,26 +89,26 @@ padding-left: 20px;
 .header-soc-item:hover,
 .header-soc-item:focus {
   background-color: transparent;
-  border: 1px solid #ECD979;
+  border: 1px solid #ecd979;
 }
 .menu-open-btn {
-background-color: transparent;
-border: none;
-padding: 0;
-margin-left: 12px;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin-left: 12px;
 }
 
 .mob-menu {
   max-width: 274px;
   height: 100vh;
-    background-color: #ECD979;
-    top: 0;
-    right: 0;
-    position: fixed;
-    z-index: 99;
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: auto;
+  background-color: #ecd979;
+  top: 0;
+  right: 0;
+  position: fixed;
+  z-index: 99;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: auto;
   padding-top: 20px;
   padding-right: 20px;
   padding-left: 20px;
@@ -118,30 +118,36 @@ margin-left: 12px;
   background-position: bottom;
 }
 
+.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
 .mob-address-item {
-    color: #1C2225;
-    font-family: Manrope;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.16;
-    text-transform: uppercase;
-    border-radius: 15px;
-    border: 1px solid rgba(28, 34, 37, 0.10);
-    padding: 12px 20px;
-    cursor: pointer;
+  color: #1c2225;
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.16;
+  text-transform: uppercase;
+  border-radius: 15px;
+  border: 1px solid rgba(28, 34, 37, 0.1);
+  padding: 12px 20px;
+  cursor: pointer;
 }
 
 .mob-address-item:hover,
 .mob-address-item:focus {
-  border: 1px solid #ECD979; 
+  border: 1px solid #ecd979;
 }
 
 .mob-container {
   display: flex;
 }
 
-.mob-nav{
+.mob-nav {
   display: flex;
   justify-content: end;
   position: relative;
@@ -158,13 +164,13 @@ margin-left: 12px;
 }
 
 .mob-nav-item {
-  color: #1C2225;
-    font-family: Manrope;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.28;
-    text-transform: uppercase;
+  color: #1c2225;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.28;
+  text-transform: uppercase;
 }
 
 .close-mob-btn {
@@ -181,15 +187,12 @@ margin-left: 12px;
   display: none;
 }
 
-
-
-
 @media screen and (min-width: 768px) {
   .header {
-      padding-right: 32px;
-      padding-left: 32px;
-    }
-  
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+
   .mob-menu {
     max-width: 380px;
     padding-right: 32px;
@@ -197,9 +200,9 @@ margin-left: 12px;
   }
 
   .mob-address-item {
-      font-size: 14px;
-      line-height: 1.42;
-      padding: 14px 28px;
+    font-size: 14px;
+    line-height: 1.42;
+    padding: 14px 28px;
   }
 
   .close-menu-icon {
@@ -217,7 +220,7 @@ margin-left: 12px;
     padding-right: 100px;
     padding-left: 100px;
   }
-  
+
   .mob-menu {
     display: none;
   }
@@ -248,5 +251,4 @@ margin-left: 12px;
 }
 
 @media screen (min-width: 1440px) {
-
 }
