@@ -23,6 +23,26 @@ padding-left: 20px;
   gap: 12px;
 }
 
+.header-nav-list {
+  display: none;
+}
+
+.address-list-item {
+    color: #FCF9F9;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.42;
+    text-transform: uppercase;
+    display: flex;
+      padding: 14px 28px;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      border-radius: 15px;
+        border: 1px solid rgba(252, 249, 249, 0.10);
+}
+
 .header-nav-item {
     color:#FCF9F9;
     font-family: Manrope;
@@ -66,15 +86,15 @@ margin-left: 12px;
 }
 
 .mob-menu {
-  width: 274px;
+  max-width: 274px;
   height: 100vh;
     background-color: #ECD979;
     top: 0;
     right: 0;
     position: fixed;
     z-index: 99;
-    /* opacity: 0;
-    visibility: hidden; */
+    opacity: 0;
+    visibility: hidden;
     pointer-events: auto;
   padding-top: 20px;
   padding-right: 20px;
@@ -148,7 +168,83 @@ margin-left: 12px;
 }
 .address {
   display: none;
-  
 }
 
-============ Media =================
+.address-list-item:hover,
+.address-list-item:focus {
+  border: 1px solid #ECD979;
+}
+
+
+@media screen and (min-width: 768px) {
+  .header {
+      padding-right: 32px;
+      padding-left: 32px;
+    }
+  
+  .mob-menu {
+    width: 380px;
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+
+  .mob-address-item {
+      font-size: 14px;
+      line-height: 1.42;
+      padding: 14px 28px;
+  }
+
+  .close-menu-icon {
+    width: 44px;
+    height: 44px;
+  }
+
+  .menu-open-btn {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header {
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+  
+  .mob-menu {
+    display: none;
+  }
+
+  .menu-open-btn {
+    display: none;
+  }
+
+  .header-nav {
+    display: flex;
+    align-items: center;
+  }
+
+  .header-social {
+    margin-left: 20px;
+  }
+
+  .header-nav-list {
+    display: flex;
+    margin-left: 40px;
+    gap: 25px;
+  }
+
+  .address {
+    display: flex;
+    margin-left: auto;
+  }
+}
+
+@media screen (min-width: 1440px) {
+
+}
+
+.element-img {
+  /* position: absolute;
+  bottom: 0;
+  left: 0; */
+}
