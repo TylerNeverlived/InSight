@@ -1,0 +1,47 @@
+.about {
+}
+
+.about-container {
+}
+
+.container {
+}
+
+.about-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.about-title {
+    color: var(--white, #FCF9F9);
+font-family: Manrope;
+font-size: 44px;
+font-weight: 500;
+line-height: 1.45em; /* 145.455% */
+letter-spacing: -0.03em;
+gap: 40px;
+}
+
+.about-text {
+    color: rgba(252, 249, 249, 0.40);
+font-family: Manrope;
+font-size: 16px;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.04em;
+}
+
+.about-text-top {
+    margin-bottom: 20px;
+}
+
+.about-text-bottom {
+}
+
+.about-picture {
+}
+
+.about-image {
+}
