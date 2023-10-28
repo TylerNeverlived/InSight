@@ -1,0 +1,154 @@
+.header {
+padding-right: 20px;
+padding-left: 20px;
+}
+
+.logo-svg {
+  background-color: transparent;
+  display: inline-block;
+}
+.header-container {
+  display: flex;
+  align-items: end;
+}
+
+.header-social {
+  display: flex;
+  margin-left: auto;
+  padding-top: 24px;
+}
+
+.header-soc-list {
+  display: flex;
+  gap: 12px;
+}
+
+.header-nav-item {
+    color:#FCF9F9;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.28;
+    text-transform: uppercase;
+}
+
+.header-nav-item:hover,
+.header-nav-item:focus {
+  color: #ECD979;
+}
+
+.header-soc-item {
+  display: flex;
+  padding: 8px;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.10);
+  background: rgba(252, 249, 249, 0.10);
+  cursor: pointer;
+}
+
+.header-soc-item:hover,
+.header-soc-item:focus {
+  background-color: transparent;
+  border: 1px solid #ECD979;
+}
+.menu-open-btn {
+background-color: transparent;
+border: none;
+padding: 0;
+margin-left: 12px;
+}
+
+.is-open {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.mob-menu {
+  width: 274px;
+  height: 100vh;
+    background-color: #ECD979;
+    top: 0;
+    right: 0;
+    position: fixed;
+    z-index: 99;
+    /* opacity: 0;
+    visibility: hidden; */
+    pointer-events: auto;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-image: url(../img/elements.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+}
+
+.mob-address-item {
+    color: #1C2225;
+    font-family: Manrope;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.16;
+    text-transform: uppercase;
+    border-radius: 15px;
+    border: 1px solid rgba(28, 34, 37, 0.10);
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+.mob-address-item:hover,
+.mob-address-item:focus {
+  border: 1px solid #ECD979; 
+}
+
+.mob-container {
+  display: flex;
+  
+}
+
+.mob-nav{
+  display: flex;
+  justify-content: end;
+  position: relative;
+}
+
+.mob-nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: end;
+  position: absolute;
+  top: 50%;
+  transform: translateY(50%);
+  
+}
+
+.mob-nav-item {
+  color: #1C2225;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.28;
+    text-transform: uppercase;
+}
+
+.close-mob-btn {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin-left: auto;
+}
+
+.close-menu-icon {
+  fill: black;
+}
+.address {
+  display: none;
+  
+}
+
+============ Media =================
