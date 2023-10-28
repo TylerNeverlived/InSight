@@ -2,6 +2,12 @@
 }
 
 .about-container {
+    background-color: #1C2225;
+    background-image: url(../src/img/about-background-image.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 459px 408px;
+    padding: 0px 0.615px 0.455px 0px;
 }
 
 .container {
