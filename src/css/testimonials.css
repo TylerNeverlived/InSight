@@ -59,11 +59,11 @@
 /* =============================================== */
 
 @media screen and (min-width: 768px) {
-  .container {
+  /* .container {
     padding-left: 32px;
     padding-right: 32px;
     max-width: 768px;
-  }
+  } */
 
   .review-tablet {
     display: block;
@@ -91,11 +91,11 @@
 /* =============================================== */
 
 @media screen and (min-width: 1280px) {
-  .container {
+  /* .container {
     max-width: 1110px;
     padding-left: 15px;
     padding-right: 15px;
-  }
+  } */
 
   .review-desktop {
     display: block;
