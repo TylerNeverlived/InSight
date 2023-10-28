@@ -4,8 +4,9 @@
     
     font-style: normal;
     font-weight: 400;
-    
-    
+}
+.hero-container {
+
 }
 .text-style-1 {
     color: var(--white, #ECD979);
