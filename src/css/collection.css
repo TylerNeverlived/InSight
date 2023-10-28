@@ -1,0 +1,114 @@
+.collection {
+  background-color: #1c2225;
+  background-image: url(../img/background-collection-mob-1x.png);
+  background-position: left 298px;
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .collection {
+    background-image: url(../img/background-collection-mob-2x.png);
+  }
+}
+
+.container {
+}
+.collection-title {
+  color: #fcf9f9;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.38;
+  letter-spacing: -0.03em;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.collection-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.collection-item {
+}
+.collection-picture {
+}
+.collection-img {
+  border-radius: 4px;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container-collection {
+  margin-top: 18px;
+}
+.collection-subtitle {
+  color: #fcf9f9;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.collection-item-price {
+  color: rgba(252, 249, 249, 0.4);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.05em;
+}
+
+/* ===================Media 768==================== */
+
+@media screen and (min-width: 768px) {
+  /* .collection {
+    background-image: url(../img/background-collection-tab-1x.png);
+    background-position: left 280px;
+  } */
+
+  .collection-list {
+    justify-content: center;
+  }
+
+  .collection-item {
+    width: calc((100% - 20px) / 2);
+  }
+
+  .collection-title {
+    font-size: 44px;
+    line-height: 1.45;
+    letter-spacing: -0.03em;
+  }
+
+  .collection-subtitle {
+    font-size: 18px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  .collection-item-price {
+    font-size: 18px;
+  }
+}
+
+/* ================================================= */
+
+/* ===================Media 1280==================== */
+
+@media screen and (min-width: 1280px) {
+  .collection-list {
+    gap: 40px 20px;
+  }
+
+  .collection-item {
+    width: calc((100% - 40px) / 3);
+  }
+}
+
+/* ================================================= */
