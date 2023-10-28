@@ -191,7 +191,7 @@ margin-left: 12px;
     }
   
   .mob-menu {
-    width: 380px;
+    max-width: 380px;
     padding-right: 32px;
     padding-left: 32px;
   }
