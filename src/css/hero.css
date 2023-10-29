@@ -37,16 +37,36 @@
     border: 1px solid var(--yellow, #ECD979);
 }
 .hero-image {
-    width: 335px;
-    height: 545px;
     border-radius: 4px;
-    background: lightgray 50% / cover no-repeat;
+
+}
+.embroidery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    width: 115px;
+    height: 111px;
+}
+.embroidery-text {
+    color: rgba(252, 249, 249, 0.40);
+
+    text-align: center;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.64px;
+    width: 115px;
 }
 
 
 @media screen and (min-width: 320px) and (max-width: 374px) {
 .hero-container {
-    
+    display: flex;
+    flex-direction: column-reverse;
 }
 .hero-header {
     width: 335px;
@@ -60,6 +80,17 @@
     margin-bottom: 40px;
     margin-left: 70px;
     
+}
+.hero-image {
+    width: 335px;
+    height: 545px;
+    background: url(../img/girl-hero-mob-1x.jpg) lightgray 50% / cover no-repeat;
+}
+.embroidery {
+    display: none;
+}
+.cloth {
+    display: none;
 }
 }
 
@@ -77,5 +108,53 @@
     line-height: 64px; /* 118.519% */
     letter-spacing: -1.62px;
 }
+.hero-image {
+    width: 413px;
+    height: 575px;
+    background: url(../img/girl-hero-tablet-1x.jpg) lightgray 50% / cover no-repeat;
+}
+.hero-container {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column-reverse;
+    
+
+}
+.hero-info {
+    margin-top: 26px;
+}
+.hero-btn {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 141px;
+}
+.hero .container {
+    position: relative;
+}
+.embroidery {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.cloth {
+    
+
+    width: 157px;
+    height: 191px;
+    overflow: hidden;
+}
+.cloth img {
+    width: 157px;
+    height: 119px;
+    clip-path: ellipse(50% 100% at 50% 100%);
+    position: absolute;
+    bottom: 271px;
+    right: 0;
+}
+
+
+
+
+
 
 }
