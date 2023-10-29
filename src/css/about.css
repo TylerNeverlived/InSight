@@ -1,6 +1,6 @@
 .about {
     background-color: #1c2225;
-    /* background-image: url(../img/background-about-mob-1x.png);
+    /* background-image: ;
     background-position: ;
     background-repeat: no-repeat;
     flex-shrink: 0; */
@@ -10,8 +10,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .about {
-    background-image: url(../img/background-about-mob-2x.png);
-}
+    background-image: ;
 } */
 
 .about-container {
@@ -69,7 +68,7 @@
 @media screen and (min-width: 768px) {
 
 /* .about {
-    background-image: url(../img/background-about-tab.png);
+    background-image: ;
     background-position: right;
 } */
 
@@ -93,7 +92,7 @@
 /*!-----Media 1280-----*/
 @media screen and (min-width: 1280px) {
 /* .about {
-    background-image: url(../img/background-about-small-desk.png);
+    background-image: ;
     background-position: right;
 } */
 
@@ -107,7 +106,7 @@
 /*!-----Media 1440-----*/
 @media screen and (min-width: 1440px){
 /* .about {
-    background-image: url(../img/background-about-big-desk.png);
+    background-image: ;
     background-position: right;
 } */
 
