@@ -1,7 +1,10 @@
+<<<<<<< Updated upstream
 .header {
   padding-right: 20px;
   padding-left: 20px;
 }
+=======
+>>>>>>> Stashed changes
 
 .logo-svg {
   background-color: transparent;
@@ -30,8 +33,6 @@
 .address-list-item {
   color: #fcf9f9;
   font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.42;
   text-transform: uppercase;
   display: flex;
@@ -56,11 +57,16 @@
 }
 
 .header-nav-item {
+<<<<<<< Updated upstream
   color: #fcf9f9;
   font-family: Manrope;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
+=======
+  color:#FCF9F9;
+  font-size: 14px;
+>>>>>>> Stashed changes
   line-height: 1.28;
   text-transform: uppercase;
   cursor: pointer;
@@ -78,12 +84,24 @@
   display: flex;
   padding: 8px;
   border-radius: 15px;
+<<<<<<< Updated upstream
   border: 1px solid rgba(252, 249, 249, 0.1);
   background: rgba(252, 249, 249, 0.1);
+=======
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(252, 249, 249, 0.10);
+  background: rgba(252, 249, 249, 0.10);
+>>>>>>> Stashed changes
   cursor: pointer;
   transition-property: background-color, border;
   transition-duration: 0.5s;
   transition-timing-function: ease-in-out;
+}
+
+.soc-item-link {
+  width: 28px;
+  height: 28px;
 }
 
 .header-soc-item:hover,
@@ -99,9 +117,13 @@
 }
 
 .mob-menu {
-  max-width: 274px;
+  width: 274px;
   height: 100vh;
+<<<<<<< Updated upstream
   background-color: #ecd979;
+=======
+  background-color: #ECD979;
+>>>>>>> Stashed changes
   top: 0;
   right: 0;
   position: fixed;
@@ -112,12 +134,13 @@
   padding-top: 20px;
   padding-right: 20px;
   padding-left: 20px;
-  background-image: url(../img/elements.png);
+  background-image: url(../img/elements-1x-mobile.png);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: contain;
   background-position: bottom;
 }
 
+<<<<<<< Updated upstream
 .is-open {
   opacity: 1;
   visibility: visible;
@@ -129,11 +152,28 @@
   font-family: Manrope;
   font-size: 12px;
   font-style: normal;
+=======
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .mob-menu {
+    background-image: url(../img/elements-2x-mobile.png);
+  }
+}
+
+.mob-address-item {
+  color: #1C2225;
+  font-size: 12px;
+>>>>>>> Stashed changes
   font-weight: 400;
   line-height: 1.16;
   text-transform: uppercase;
   border-radius: 15px;
+<<<<<<< Updated upstream
   border: 1px solid rgba(28, 34, 37, 0.1);
+=======
+  border: 1px solid rgba(28, 34, 37, 0.10);
+>>>>>>> Stashed changes
   padding: 12px 20px;
   cursor: pointer;
 }
@@ -150,7 +190,6 @@
 .mob-nav {
   display: flex;
   justify-content: end;
-  position: relative;
 }
 
 .mob-nav-list {
@@ -158,19 +197,34 @@
   flex-direction: column;
   gap: 20px;
   align-items: end;
-  position: absolute;
-  top: 50%;
-  transform: translateY(50%);
 }
 
 .mob-nav-item {
+<<<<<<< Updated upstream
   color: #1c2225;
+=======
+  color: #1C2225;
+>>>>>>> Stashed changes
   font-family: Manrope;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 1.28;
   text-transform: uppercase;
+<<<<<<< Updated upstream
+=======
+}
+
+.is-open {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.no-scroll {
+  overflow: hidden;
+>>>>>>> Stashed changes
 }
 
 .close-mob-btn {
@@ -187,17 +241,31 @@
   display: none;
 }
 
+<<<<<<< Updated upstream
 @media screen and (min-width: 768px) {
   .header {
     padding-right: 32px;
     padding-left: 32px;
   }
 
+=======
+
+@media screen and (min-width: 768px) {
+>>>>>>> Stashed changes
   .mob-menu {
-    max-width: 380px;
+    width: 380px;
     padding-right: 32px;
     padding-left: 32px;
+    background-image: url(../img/elements-1x-tablet.png);
   }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      .mob-menu {
+        background-image: url(../img/elements-2x-tablet.png);
+      }
+    }
 
   .mob-address-item {
     font-size: 14px;
@@ -213,12 +281,14 @@
   .menu-open-btn {
     margin-left: 20px;
   }
+
+  .mob-nav-list {
+    gap: 25px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
   .header {
-    padding-right: 100px;
-    padding-left: 100px;
   }
 
   .mob-menu {
@@ -232,6 +302,7 @@
   .header-nav {
     display: flex;
     align-items: center;
+    gap: 60px;
   }
 
   .header-social {
@@ -240,7 +311,6 @@
 
   .header-nav-list {
     display: flex;
-    margin-left: 40px;
     gap: 25px;
   }
 
