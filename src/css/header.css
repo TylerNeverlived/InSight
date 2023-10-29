@@ -1,11 +1,3 @@
-<<<<<<< Updated upstream
-.header {
-  padding-right: 20px;
-  padding-left: 20px;
-}
-=======
->>>>>>> Stashed changes
-
 .logo-svg {
   background-color: transparent;
   display: inline-block;
@@ -57,16 +49,8 @@
 }
 
 .header-nav-item {
-<<<<<<< Updated upstream
   color: #fcf9f9;
-  font-family: Manrope;
   font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-=======
-  color:#FCF9F9;
-  font-size: 14px;
->>>>>>> Stashed changes
   line-height: 1.28;
   text-transform: uppercase;
   cursor: pointer;
@@ -84,15 +68,10 @@
   display: flex;
   padding: 8px;
   border-radius: 15px;
-<<<<<<< Updated upstream
-  border: 1px solid rgba(252, 249, 249, 0.1);
-  background: rgba(252, 249, 249, 0.1);
-=======
   justify-content: center;
   align-items: center;
-  border: 1px solid rgba(252, 249, 249, 0.10);
-  background: rgba(252, 249, 249, 0.10);
->>>>>>> Stashed changes
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  background: rgba(252, 249, 249, 0.1);
   cursor: pointer;
   transition-property: background-color, border;
   transition-duration: 0.5s;
@@ -116,14 +95,20 @@
   margin-left: 12px;
 }
 
+.backdrop {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  /* opacity: 0; */
+  visibility: hidden;
+  pointer-events: none;
+}
+
 .mob-menu {
   width: 274px;
   height: 100vh;
-<<<<<<< Updated upstream
   background-color: #ecd979;
-=======
-  background-color: #ECD979;
->>>>>>> Stashed changes
   top: 0;
   right: 0;
   position: fixed;
@@ -140,40 +125,29 @@
   background-position: bottom;
 }
 
-<<<<<<< Updated upstream
 .is-open {
+  display: block;
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
 }
 
-.mob-address-item {
-  color: #1c2225;
-  font-family: Manrope;
-  font-size: 12px;
-  font-style: normal;
-=======
 @media (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
   .mob-menu {
     background-image: url(../img/elements-2x-mobile.png);
   }
 }
 
 .mob-address-item {
-  color: #1C2225;
+  color: #1c2225;
   font-size: 12px;
->>>>>>> Stashed changes
   font-weight: 400;
   line-height: 1.16;
   text-transform: uppercase;
   border-radius: 15px;
-<<<<<<< Updated upstream
   border: 1px solid rgba(28, 34, 37, 0.1);
-=======
-  border: 1px solid rgba(28, 34, 37, 0.10);
->>>>>>> Stashed changes
   padding: 12px 20px;
   cursor: pointer;
 }
@@ -185,6 +159,7 @@
 
 .mob-container {
   display: flex;
+  margin-bottom: 186px;
 }
 
 .mob-nav {
@@ -200,31 +175,17 @@
 }
 
 .mob-nav-item {
-<<<<<<< Updated upstream
   color: #1c2225;
-=======
-  color: #1C2225;
->>>>>>> Stashed changes
   font-family: Manrope;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 1.28;
   text-transform: uppercase;
-<<<<<<< Updated upstream
-=======
-}
-
-.is-open {
-  display: block;
-  opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
 }
 
 .no-scroll {
   overflow: hidden;
->>>>>>> Stashed changes
 }
 
 .close-mob-btn {
@@ -241,17 +202,7 @@
   display: none;
 }
 
-<<<<<<< Updated upstream
 @media screen and (min-width: 768px) {
-  .header {
-    padding-right: 32px;
-    padding-left: 32px;
-  }
-
-=======
-
-@media screen and (min-width: 768px) {
->>>>>>> Stashed changes
   .mob-menu {
     width: 380px;
     padding-right: 32px;
@@ -259,13 +210,17 @@
     background-image: url(../img/elements-1x-tablet.png);
   }
 
-    @media (min-device-pixel-ratio: 2),
+  @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-      .mob-menu {
-        background-image: url(../img/elements-2x-tablet.png);
-      }
+    .mob-menu {
+      background-image: url(../img/elements-2x-tablet.png);
     }
+  }
+
+  .mob-container {
+    margin-bottom: 223px;
+  }
 
   .mob-address-item {
     font-size: 14px;
@@ -320,5 +275,5 @@
   }
 }
 
-@media screen (min-width: 1440px) {
+@media screen and (min-width: 1440px) {
 }
