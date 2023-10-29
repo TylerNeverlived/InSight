@@ -1,6 +1,6 @@
 .collection {
-  background-color: #1c2225;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  /* background-color: #1c2225;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
   background-image: url(../img/background-collection-mob-1x.png);
   background-position: left 286px;
   background-repeat: no-repeat;
@@ -15,7 +15,7 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .collection {
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
     background-image: url(../img/background-collection-mob-2x.png);
   }
 }
