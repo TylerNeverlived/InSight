@@ -1,5 +1,5 @@
 .hero-header {
-    color: var(--white, #FCF9F9);
+    color:  #FCF9F9;
     font-family: Manrope;
     
     font-style: normal;
@@ -9,7 +9,7 @@
 
 }
 .text-style-1 {
-    color: var(--white, #ECD979);
+    color:  #ECD979;
 }
 .hero-btn {
     background: #1C2225;
@@ -22,13 +22,13 @@
     border-radius: 15px;
     border: 1px solid rgba(252, 249, 249, 0.10);
 
-    color: var(--white, #FCF9F9);
+    color:  #FCF9F9;
     font-family: Manrope;
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    letter-spacing: -0.56px;
+    letter-spacing: -0.04em;
     text-transform: uppercase;
 }
 .hero-btn:hover,
@@ -57,7 +57,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    letter-spacing: -0.64px;
+    letter-spacing: -0.04em;
     width: 115px;
 }
 
@@ -71,8 +71,8 @@
     width: 335px;
     height: 216px;
     font-size: 44px;
-    line-height: 54px; /* 122.727% */
-    letter-spacing: -1.32px;
+    line-height: 122.727%; /* 122.727% */
+    letter-spacing: -0.03em;
 }
 .hero-btn {
     height: 49px;
@@ -110,8 +110,8 @@
     width: 335px;
     height: 216px;
     font-size: 44px;
-    line-height: 54px; /* 122.727% */
-    letter-spacing: -1.32px;
+    line-height: 122.727%; /* 122.727% */
+    letter-spacing: -0.03em;
 }
 .hero-btn {
     height: 49px;
@@ -143,8 +143,8 @@
     width: 549px;
     height: 192px;
     font-size: 54px;
-    line-height: 64px; /* 118.519% */
-    letter-spacing: -1.62px;
+    line-height: 118.519%; /* 118.519% */
+    letter-spacing: -0.03em;
 }
 .hero-image {
     width: 413px;
@@ -178,7 +178,7 @@
 }
 .cloth {
     width: 157px;
-    height: 191px;
+    height: 0px;
     overflow: hidden;
 }
 .cloth img {
@@ -186,7 +186,7 @@
     height: 119px;
     clip-path: ellipse(50% 100% at 50% 100%);
     position: absolute;
-    bottom: 271px;
+    bottom: 0px;
     right: 32px;
 }
 }
@@ -215,8 +215,8 @@
     font-size: 54px;
     font-style: normal;
     font-weight: 400;
-    line-height: 64px; /* 118.519% */
-    letter-spacing: -1.62px;
+    line-height: 118.519%; /* 118.519% */
+    letter-spacing: -0.03em;
     width: 518px;
     height: 192px;
 }
@@ -240,7 +240,7 @@
     height: 119px;
     clip-path: ellipse(50% 100% at 50% 100%);
     position: absolute;
-    bottom: 80px;
+    bottom: 0px;
     right: 15px;
 }
 .hero .container {
@@ -273,8 +273,8 @@
     font-size: 54px;
     font-style: normal;
     font-weight: 400;
-    line-height: 64px; /* 118.519% */
-    letter-spacing: -1.62px;
+    line-height: 118.519%; /* 118.519% */
+    letter-spacing: -0.03em;
     width: 518px;
     height: 192px;
     
@@ -301,7 +301,7 @@
     height: 119px;
     clip-path: ellipse(50% 100% at 50% 100%);
     position: absolute;
-    bottom: 80px;
+    bottom: 0px;
     right: 15px;
 }
 }
