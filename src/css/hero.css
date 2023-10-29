@@ -82,10 +82,16 @@
     margin-left: 70px;
     
 }
+.hero.desktop {
+    display: none;
+}
+.hero-image.tablet {
+    display: none;
+}
 .hero-image {
     width: 335px;
     height: 545px;
-    background: url(../img/girl-hero-mob-1x.jpg) lightgray 50% / cover no-repeat;
+    background: lightgray 50% / cover no-repeat;
     max-width: 100%;
 }
 
@@ -121,10 +127,16 @@
     margin-left: 70px;
     
 }
+.hero-image.desktop {
+    display: none;
+}
+.hero-image.tablet {
+    display: none;
+}
 .hero-image {
     width: 335px;
     height: 545px;
-    background: url(../img/girl-hero-mob-1x.jpg) lightgray 50% / cover no-repeat;
+    background: lightgray 50% / cover no-repeat;
     max-width: 100%;
 }
 
@@ -146,10 +158,16 @@
     line-height: 118.519%; /* 118.519% */
     letter-spacing: -0.03em;
 }
+.hero-image.desktop {
+    display: none;
+}
+.hero-image.mob {
+    display: none;
+}
 .hero-image {
     width: 413px;
     height: 575px;
-    background: url(../img/girl-hero-tablet-1x.jpg) lightgray 50% / cover no-repeat;
+    background: lightgray 50% / cover no-repeat;
 }
 .hero-container {
     margin-top: 0px;
@@ -193,10 +211,17 @@
 
 @media screen and (min-width: 1280px) and (max-width: 1439px) {
 
+
+.hero-image.mob {
+    display: none;
+}
+.hero-image.tablet {
+    display: none;
+}
 .hero-image {
     width: 392px;
     height: 545px;
-    background: url(../img/girl-hero-tablet-1x.jpg) lightgray 50% / cover no-repeat;
+    background: lightgray 50% / cover no-repeat;
 }
 
 
@@ -250,11 +275,17 @@
 
 
 @media screen and (min-width: 1440px)  {
-    
+
+.hero-image.mob {
+    display: none;
+}
+.hero-image.tablet {
+    display: none;
+}   
 .hero-image {
     width: 392px;
     height: 545px;
-    background: url(../img/girl-hero-tablet-1x.jpg) lightgray 50% / cover no-repeat;
+    background: lightgray 50% / cover no-repeat;
 }
 
 
