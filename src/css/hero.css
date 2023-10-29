@@ -86,7 +86,9 @@
     width: 335px;
     height: 545px;
     background: url(../img/girl-hero-mob-1x.jpg) lightgray 50% / cover no-repeat;
+    max-width: 100%;
 }
+
 .embroidery {
     display: none;
 }
@@ -94,7 +96,6 @@
     display: none;
 }
 }
-
 
 
 
