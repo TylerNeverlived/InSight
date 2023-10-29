@@ -1,3 +1,6 @@
+.header {
+  padding-bottom: 80px;
+}
 .logo-svg {
   background-color: transparent;
   display: inline-block;
@@ -103,6 +106,7 @@
   /* opacity: 0; */
   visibility: hidden;
   pointer-events: none;
+  z-index: 99;
 }
 
 .mob-menu {
@@ -203,7 +207,12 @@
 }
 
 @media screen and (min-width: 768px) {
+  .header {
+    padding-bottom: 100px;
+  }
+
   .mob-menu {
+    z-index: 99;
     width: 380px;
     padding-right: 32px;
     padding-left: 32px;
@@ -244,6 +253,7 @@
 
 @media screen and (min-width: 1280px) {
   .header {
+    padding-bottom: 150px;
   }
 
   .mob-menu {

@@ -26,7 +26,7 @@ btnCloseMobMenuWindow.addEventListener('click', closeMobMenuWindow);
 overlay.addEventListener('click', closeMobMenuWindow);
 
 document.addEventListener('keydown', function (e) {
-  if (e.key === 'Escape' && !mobMenuWindow.classList.contains('is-open')) {
+  if (e.key === 'Escape' && !mobMenuWindow.classList.remove('is-open')) {
     closeMobMenuWindow();
   }
 });
