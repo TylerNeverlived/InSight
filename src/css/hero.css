@@ -14,8 +14,7 @@
 .hero-btn {
     background: #1C2225;
     display: inline-flex;
-    height: 49px;
-    padding: 14px 36px;
+
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -76,6 +75,8 @@
     letter-spacing: -1.32px;
 }
 .hero-btn {
+    height: 49px;
+    padding: 14px 36px;
     margin-top: 20px;
     margin-bottom: 40px;
     margin-left: 70px;
@@ -98,7 +99,7 @@
 
 
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 375px) and (max-width: 767px) {
 
 .hero-header {
     
@@ -124,6 +125,8 @@
     margin-top: 26px;
 }
 .hero-btn {
+    height: 49px;
+    padding: 14px 36px;
     margin-top: 40px;
     margin-bottom: 40px;
     margin-left: 141px;
@@ -137,8 +140,6 @@
     right: 0;
 }
 .cloth {
-    
-
     width: 157px;
     height: 191px;
     overflow: hidden;
@@ -152,9 +153,115 @@
     right: 0;
 }
 
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+
+.hero-image {
+    width: 392px;
+    height: 545px;
+    background: url(../img/girl-hero-tablet-1x.jpg) lightgray 50% / cover no-repeat;
+}
 
 
+ .hero-container {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.hero-info {
+    margin-top: 94px;
+}
+.hero-header {
+    font-family: Manrope;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px; /* 118.519% */
+    letter-spacing: -1.62px;
+    width: 518px;
+    height: 192px;
+}
+.hero-btn {
+    margin-top: 54px;
+    margin-left: 141px;
+    height: 49px;
+    padding: 14px 39px;
+}
+.hero .container {
+    position: relative;
+}
+
+.embroidery {
+    position: absolute;
+    top: 14px;
+    right: 0;
+}
+.cloth img {
+    width: 157px;
+    height: 119px;
+    clip-path: ellipse(50% 100% at 50% 100%);
+    position: absolute;
+    bottom: 80px;
+    right: 0;
+}
+}
+
+@media screen and (min-width: 1440px) {
+
+.hero-image {
+    width: 392px;
+    height: 545px;
+    background: url(../img/girl-hero-tablet-1x.jpg) lightgray 50% / cover no-repeat;
+}
 
 
+ .hero-container {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
 
+.hero-info {
+    margin-top: 94px;
+}
+.hero-header {
+    font-family: Manrope;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px; /* 118.519% */
+    letter-spacing: -1.62px;
+    width: 518px;
+    height: 192px;
+    
+}
+.hero-btn {
+    margin-top: 54px;
+    margin-left: 141px;
+    height: 49px;
+    padding: 14px 39px;
+}
+.hero .container {
+    position: relative;
+}
+
+.embroidery {
+    
+    position: absolute;
+    top: 94px;
+    right: 0;
+}
+.cloth img {
+    
+    width: 157px;
+    height: 119px;
+    clip-path: ellipse(50% 100% at 50% 100%);
+    position: absolute;
+    bottom: 80px;
+    right: 0;
+}
 }
