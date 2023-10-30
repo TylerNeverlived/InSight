@@ -1,5 +1,6 @@
 .header {
   padding-bottom: 80px;
+
 }
 .logo-svg {
   background-color: transparent;
@@ -7,13 +8,15 @@
 }
 .header-container {
   display: flex;
-  align-items: end;
+  align-items: center;
+  justify-content: center;
+  height: 52px;
+  margin-top: 20px;
 }
 
 .header-social {
   display: flex;
   margin-left: auto;
-  padding-top: 24px;
 }
 
 .header-soc-list {
@@ -254,6 +257,10 @@
 @media screen and (min-width: 1280px) {
   .header {
     padding-bottom: 150px;
+  }
+
+  .header-container {
+    margin-top: 18px;
   }
 
   .mob-menu {
