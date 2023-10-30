@@ -1,7 +1,7 @@
 .about {
     background-color: #1c2225;
-    /* background-image: ;
-    background-position: ;
+    /* background-image: url(../img/about-background-mob-1x.png)
+    background-position: right-bottom ;
     background-repeat: no-repeat;
     flex-shrink: 0; */
 }
@@ -15,8 +15,6 @@
 
 .about-container {
     min-width: 335px;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 .container {
@@ -68,15 +66,9 @@
 @media screen and (min-width: 768px) {
 
 /* .about {
-    background-image: ;
+    background-image: url(../img/about-background-tab-1x.png);
     background-position: right;
 } */
-
-.about-container {
-    min-width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
-}
 
 .about-title {
     font-size: 44px;
@@ -91,28 +83,40 @@
 
 /*!-----Media 1280-----*/
 @media screen and (min-width: 1280px) {
-/* .about {
-    background-image: ;
+
+    /* .about {
+    background-image: url(../img/about-background-small-desk-1x.png);
     background-position: right;
 } */
 
-.about-container {
-    min-width: 1280px;
-    padding-left: 100px;
-    padding-right: 100px;
+.about-title {
+    padding-top: 45.5px;
+}
+
+.about-wrap {
+    flex-wrap: nowrap;
+}
+
+.about-text {
+    max-width: 436px;
+    padding-bottom: 45.5px;
 }
 }
 
 /*!-----Media 1440-----*/
 @media screen and (min-width: 1440px){
-/* .about {
-    background-image: ;
+
+    /* .about {
+    background-image: url(../img/about-background-big-desk-1x.png) ;
     background-position: right;
 } */
 
-.about-container {
-    min-width: 1440px;
-    padding-left: 100px;
-    padding-right: 100px;
+.about-title {
+    padding-top: 79px;
+}
+
+.about-text {
+    max-width: 481px;
+    padding-bottom: 79px;
 }
 }
