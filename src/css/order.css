@@ -1,17 +1,15 @@
 /** -------------IMAGE----------------- */
 .background-image {
-  width: 375px;
-  height: 550px;
-  flex-shrink: 0;
-  background-image: url(../img/order/girl-in-green-vyshyvanka.jpg);
   background-repeat: no-repeat;
-  margin-bottom: 80px;
+  margin-bottom: 100px;
 }
 
 /**--------------Title----------------- */
-
 .your-order {
   background-color: #1c2225;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 .container-title-form {
   display: flex;
@@ -19,13 +17,14 @@
   flex-direction: column;
   justify-content: center;
   gap: 40px;
+  justify-content: center;
+  align-items: center;
 }
 .title-form {
-  color: var(--white, #fcf9f9);
-  font-family: Manrope;
+  color: #fcf9f9;
   font-size: 32px;
-  font-style: normal;
   width: 335px;
+  -webkit-touch-callout: ;
 }
 .title-form-span {
   color: #ecd979;
@@ -54,11 +53,7 @@
   border: 1px solid rgba(252, 249, 249, 0.1);
   background-color: transparent;
   color: rgba(252, 249, 249, 0.5);
-  font-family: Manrope;
   font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
   letter-spacing: -0.28px;
 }
 
@@ -91,12 +86,10 @@
   border: 1px solid rgba(252, 249, 249, 0.1);
   background-color: transparent;
   color: rgba(252, 249, 249, 0.5);
-  font-family: Manrope;
   font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+
   letter-spacing: -0.28px;
+  resize: none;
 }
 
 .textarea-form:focus {
@@ -122,12 +115,10 @@
   border-radius: 15px;
   border: 1px solid rgba(252, 249, 249, 0.1);
   background-color: transparent;
-  color: var(--white, #fcf9f9);
+  color: #fcf9f9;
   font-family: Manrope;
   font-size: 14px;
-  font-style: normal;
   font-weight: 600;
-  line-height: normal;
   letter-spacing: -0.56px;
   text-transform: uppercase;
   margin: 0 auto;

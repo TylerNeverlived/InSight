@@ -1,12 +1,50 @@
-<section class="your-order">
+<section class="container your-order">
+  <picture class="bg-image">
+    <source
+      class="background-image"
+      srcset="
+        ./img/order/girl-in-green-vyshyvanka.jpg    1x,
+        ./img/order/girl-in-green-vyshyvanka_2x.jpg 2x
+      "
+      type="image/jpeg"
+      media="(max-width:767px)"
+    />
 
-  <div class="background-image"></div>
+    <source
+      class="background-image"
+      srcset="
+        ./img/order/girl-in-green-vyshyvanka_tablet.jpg    1x,
+        ./img/order/girl-in-green-vyshyvanka_tablet_2x.jpg 2x
+      "
+      type="image/jpeg"
+      media="(max-width:1279px)"
+    />
 
+    <source
+      class="background-image"
+      srcset="
+        ./img/order/girl-in-green-vyshyvanka_pc.jpg    1x,
+        ./img/order/girl-in-green-vyshyvanka_pc_2x.jpg 2x
+      "
+      type="image/jpeg"
+      media="(min-width:1280px)"
+    />
+
+    <img
+      class="background-image"
+      src="./img/order/girl-in-green-vyshyvanka.jpg"
+      alt=""
+    />
+  </picture>
+  <div></div>
   <div class="container-title-form">
     <h3 class="title-form">
       <span class="title-form-span">Your order</span> is our priority:
       Personalized approach and quality of service
     </h3>
+    <div>
+      <h3><span></span></h3>
+    </div>
 
     <form name="feedback_form" autocomplete="off">
       <div class="inputs">
@@ -45,10 +83,11 @@
         </div>
       </div>
     </form>
-    <button type="submit" class="button">Send
+    <button type="submit" class="button">
+      Send
       <svg width="26" height="10" class="svg-btn">
-                <use href="../img/icons.svg#icon-icon-for-button-order"></use>
-              </svg>
+        <use href="../img/icons.svg#icon-icon-for-button-order"></use>
+      </svg>
     </button>
   </div>
 </section>
