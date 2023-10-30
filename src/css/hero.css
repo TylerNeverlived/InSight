@@ -1,14 +1,14 @@
 .hero-header {
-  color: var(--white, #fcf9f9);
-  font-family: Manrope;
-
-  font-style: normal;
-  font-weight: 400;
+    color:  #FCF9F9;
+    font-family: Manrope;
+    
+    font-style: normal;
+    font-weight: 400;
 }
 .hero-container {
 }
 .text-style-1 {
-  color: var(--white, #ecd979);
+    color:  #ECD979;
 }
 .hero-btn {
   background: #1c2225;
@@ -21,14 +21,14 @@
   border-radius: 15px;
   border: 1px solid rgba(252, 249, 249, 0.1);
 
-  color: var(--white, #fcf9f9);
-  font-family: Manrope;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  letter-spacing: -0.56px;
-  text-transform: uppercase;
+    color:  #FCF9F9;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -49,14 +49,15 @@
 .embroidery-text {
   color: rgba(252, 249, 249, 0.4);
 
-  text-align: center;
-  font-family: Manrope;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: -0.64px;
-  width: 115px;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.04em;
+    width: 115px;
+
 }
 
 @media screen and (min-width: 320px) and (max-width: 374px) {
@@ -68,20 +69,30 @@
     width: 335px;
     height: 216px;
     font-size: 44px;
-    line-height: 54px; /* 122.727% */
-    letter-spacing: -1.32px;
-  }
-  .hero-btn {
+
+    line-height: 122.727%; /* 122.727% */
+    letter-spacing: -0.03em;
+}
+.hero-btn {
+
     height: 49px;
     padding: 14px 36px;
     margin-top: 20px;
     margin-bottom: 40px;
     margin-left: 70px;
-  }
-  .hero-image {
+    
+}
+.hero.desktop {
+    display: none;
+}
+.hero-image.tablet {
+    display: none;
+}
+.hero-image {
+
     width: 335px;
     height: 545px;
-    background: url(../img/girl-hero-mob-1x.jpg) lightgray 50% / cover no-repeat;
+    background: lightgray 50% / cover no-repeat;
     max-width: 100%;
   }
 
@@ -104,20 +115,29 @@
     width: 335px;
     height: 216px;
     font-size: 44px;
-    line-height: 54px; /* 122.727% */
-    letter-spacing: -1.32px;
-  }
-  .hero-btn {
+    line-height: 122.727%; /* 122.727% */
+    letter-spacing: -0.03em;
+}
+.hero-btn {
+
     height: 49px;
     padding: 14px 36px;
     margin-top: 20px;
     margin-bottom: 40px;
     margin-left: 70px;
-  }
-  .hero-image {
+    
+}
+.hero-image.desktop {
+    display: none;
+}
+.hero-image.tablet {
+    display: none;
+}
+.hero-image {
+
     width: 335px;
     height: 545px;
-    background: url(../img/girl-hero-mob-1x.jpg) lightgray 50% / cover no-repeat;
+    background: lightgray 50% / cover no-repeat;
     max-width: 100%;
   }
 
@@ -134,16 +154,22 @@
     width: 549px;
     height: 192px;
     font-size: 54px;
-    line-height: 64px; /* 118.519% */
-    letter-spacing: -1.62px;
-  }
-  .hero-image {
+    line-height: 118.519%; /* 118.519% */
+    letter-spacing: -0.03em;
+}
+.hero-image.desktop {
+    display: none;
+}
+.hero-image.mob {
+    display: none;
+}
+.hero-image {
     width: 413px;
     height: 575px;
-    background: url(../img/girl-hero-tablet-1x.jpg) lightgray 50% / cover
-      no-repeat;
-  }
-  .hero-container {
+    background: lightgray 50% / cover no-repeat;
+}
+.hero-container {
+
     margin-top: 0px;
     display: flex;
     flex-direction: column-reverse;
@@ -168,7 +194,7 @@
   }
   .cloth {
     width: 157px;
-    height: 191px;
+    height: 0px;
     overflow: hidden;
   }
   .cloth img {
@@ -176,18 +202,26 @@
     height: 119px;
     clip-path: ellipse(50% 100% at 50% 100%);
     position: absolute;
-    bottom: 271px;
+    bottom: 0px;
     right: 32px;
   }
 }
 
 @media screen and (min-width: 1280px) and (max-width: 1439px) {
-  .hero-image {
+
+
+.hero-image.mob {
+    display: none;
+}
+.hero-image.tablet {
+    display: none;
+}
+.hero-image {
     width: 392px;
     height: 545px;
-    background: url(../img/girl-hero-tablet-1x.jpg) lightgray 50% / cover
-      no-repeat;
-  }
+    background: lightgray 50% / cover no-repeat;
+}
+
 
   .hero-container {
     margin-top: 0px;
@@ -204,8 +238,8 @@
     font-size: 54px;
     font-style: normal;
     font-weight: 400;
-    line-height: 64px; /* 118.519% */
-    letter-spacing: -1.62px;
+    line-height: 118.519%; /* 118.519% */
+    letter-spacing: -0.03em;
     width: 518px;
     height: 192px;
   }
@@ -229,20 +263,28 @@
     height: 119px;
     clip-path: ellipse(50% 100% at 50% 100%);
     position: absolute;
-    bottom: 80px;
+    bottom: 0px;
     right: 15px;
   }
   .hero .container {
   }
 }
 
-@media screen and (min-width: 1440px) {
-  .hero-image {
+@media screen and (min-width: 1440px)  {
+
+.hero-image.mob {
+    display: none;
+}
+.hero-image.tablet {
+    display: none;
+}   
+.hero-image {
     width: 392px;
     height: 545px;
-    background: url(../img/girl-hero-tablet-1x.jpg) lightgray 50% / cover
-      no-repeat;
-  }
+    background: lightgray 50% / cover no-repeat;
+}
+
+
 
   .hero-container {
     margin-top: 0px;
@@ -259,8 +301,8 @@
     font-size: 54px;
     font-style: normal;
     font-weight: 400;
-    line-height: 64px; /* 118.519% */
-    letter-spacing: -1.62px;
+    line-height: 118.519%; /* 118.519% */
+    letter-spacing: -0.03em;
     width: 518px;
     height: 192px;
   }
@@ -284,7 +326,7 @@
     height: 119px;
     clip-path: ellipse(50% 100% at 50% 100%);
     position: absolute;
-    bottom: 80px;
+    bottom: 0px;
     right: 15px;
   }
 }
