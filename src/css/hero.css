@@ -60,16 +60,16 @@
 
 }
 
-@media screen and (min-width: 320px) and (max-width: 374px) {
+@media screen and (min-width: 120px) and (max-width: 374px) {
   .hero-container {
     display: flex;
     flex-direction: column-reverse;
   }
   .hero-header {
-    width: 335px;
-    height: 216px;
+    width: 100%;
+    height: 100%;
     font-size: 44px;
-
+    word-wrap: break-word;
     line-height: 122.727%; /* 122.727% */
     letter-spacing: -0.03em;
 }
@@ -82,7 +82,7 @@
     margin-left: 70px;
     
 }
-.hero.desktop {
+.hero-image.desktop {
     display: none;
 }
 .hero-image.tablet {
@@ -91,7 +91,7 @@
 .hero-image {
 
     width: 335px;
-    height: 545px;
+    
     background: lightgray 50% / cover no-repeat;
     max-width: 100%;
   }
