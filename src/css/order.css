@@ -281,19 +281,73 @@
   }
 }
 @media screen and (min-width: 1280px) {
-  .botoom-container {
-    display: block;
+  .second-background {
+    margin: 0 auto;
+    background-image: url(../img/order/girl-in-green-vyshyvanka_pc.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 1280px 776px;
+    max-width: 1280px;
   }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .second-background {
+      background-image: url(../img/order/girl-in-green-vyshyvanka_pc_2x.jpg);
+    }
+  }
+
+  .order {
+    margin: 0 auto;
+    background-image: url(../img/order/elements-desktope1x.png);
+    background-repeat: no-repeat;
+    background-position: bottom 100px left;
+    background-size: auto 445px;
+    max-width: 1280px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .order {
+      background-image: url(../img/order/elements-desktope2x.png);
+    }
+  }
+
+  .order-continer {
+    padding-top: 926px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    column-gap: 50px;
+  }
+  /* .botoom-container {
+    display: block;
+  } */
   /* .container {
       max-width: 1280px;
   } */
   .order-continer {
     flex-direction: row-reverse;
-    height: 640px;
+    /* height: 640px; */
   }
-  .background-image {
+
+  .img-vyshyvanka-container {
+    width: 638px;
+    position: relative;
+    left: 0px;
+  }
+
+  .botoom-container {
+    margin: 0;
+  }
+
+  /* .background-image {
     margin-bottom: 150px;
-  }
+  } */
   .container-title-form {
     width: 542px;
     padding: 0px;
