@@ -1,0 +1,141 @@
+.about {
+    background-color: #1c2225;
+    background-image: url(../img/about-background-mob-1x.png);
+
+    background-position: right-bottom ;
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+}
+
+@media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .about {
+    background-image: url(../img/about-background-mob-2x.png);
+}
+}
+
+.about-container {
+    min-width: 335px;
+}
+
+.container {
+
+}
+
+.about-title {
+    color: #fcf9f9;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.37;
+    letter-spacing: -0.03em;
+    /* margin-bottom: 40px; */
+    text-align: left;
+}
+
+.about-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.about-text {
+    color: rgba(252, 249, 249, 0.40);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.04em;
+}
+
+.about-text-top {
+    margin-bottom: 20px;
+}
+
+.about-text-bottom {
+    /* margin-bottom: 50px; */
+}
+
+.about-picture {
+}
+
+.about-image {
+    margin-top: 50px;
+    border-radius: 4px;
+    width: 100%;
+}
+
+
+/*!-----Media 768-----*/
+@media screen and (min-width: 768px) {
+
+/* .about {
+    background-image: url(../img/about-background-tab-1x.png);
+    background-position: right;
+} */
+
+.about-title {
+    font-size: 44px;
+    line-height: 1.45;
+    letter-spacing: -0.03em;
+}
+
+.about-text {
+    font-size: 16px;
+}
+
+.about-image {
+    margin-top: 40px;
+}
+}
+
+/*!-----Media 1280-----*/
+@media screen and (min-width: 1280px) {
+
+    /* .about {
+    background-image: url(../img/about-background-small-desk-1x.png);
+    background-position: right;
+}*/
+
+.about-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    /* min-width: 1280px; */
+    /* margin: 0 auto; */
+    padding: 0;
+}
+
+.about-wrap {
+    max-width: 436px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.about-title {
+
+}
+
+.about-text-top {
+    margin-bottom: 20px;
+}
+
+.about-image {
+    margin-top: 0px;
+}
+}
+
+/*!-----Media 1440-----*/
+@media screen and (min-width: 1440px){
+
+    /* .about {
+    background-image: url(../img/about-background-big-desk-1x.png) ;
+    background-position: right;
+} */
+
+.about-title {
+}
+
+.about-text {
+    min-width: 481px;
+}
+}
