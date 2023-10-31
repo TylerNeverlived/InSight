@@ -1,6 +1,6 @@
-body {
+/* body {
   background-color: #1c2225;
-}
+} */
 /** -------------IMAGE----------------- */
 .background-image {
   margin-bottom: 80px;
@@ -51,16 +51,16 @@ body {
   flex-direction: column;
   gap: 40px;
   width: 100%;
-  padding: 0px 20px;
+  /* padding: 0px 20px; */
 }
 .title-form {
   color: #fcf9f9;
-  font-family: Manrope;
+  /* font-family: Manrope; */
   font-size: 32px;
-  font-style: normal;
+  /* font-style: normal; */
   font-weight: 500;
-  line-height: 44px;
-  letter-spacing: -0.06px;
+  line-height: 44px; /* зазнач одыныцю вымиру '1.4' */
+  letter-spacing: -0.0002em; /* зазнач одыныцю вымиру в 'em' */
 }
 .title-form-span {
   color: #ecd979;
