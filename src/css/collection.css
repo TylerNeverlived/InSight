@@ -1,6 +1,5 @@
 .collection {
-  /* background-color: #1c2225;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
+  background-color: #1c2225;
   background-image: url(../img/background-collection-mob-1x.png);
   background-position: left 286px;
   background-repeat: no-repeat;
@@ -15,7 +14,6 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .collection {
-    /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
     background-image: url(../img/background-collection-mob-2x.png);
   }
 }
@@ -103,6 +101,7 @@
 
   .collection-subtitle {
     font-size: 18px;
+    letter-spacing: 0.04em;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -137,6 +136,10 @@
       background-image: url(../img/background-collection-desk-2x.png);
     }
   }
+
+  .collection-subtitle {
+    letter-spacing: 0.05em;
+  }
 }
 
 /* ================================================= */
@@ -146,6 +149,7 @@
 @media screen and (min-width: 1440px) {
   .collection {
     background-image: url(../img/background-collection-desk-big-1x.png);
+    background-position: left 211px;
     max-width: 1440px;
   }
 
