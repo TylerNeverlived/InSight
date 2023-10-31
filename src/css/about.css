@@ -27,7 +27,7 @@
     font-weight: 500;
     line-height: 1.37;
     letter-spacing: -0.03em;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
     text-align: left;
 }
 
@@ -50,13 +50,14 @@
 }
 
 .about-text-bottom {
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 }
 
 .about-picture {
 }
 
 .about-image {
+    margin-top: 50px;
     border-radius: 4px;
     width: 100%;
 }
@@ -79,6 +80,10 @@
 .about-text {
     font-size: 16px;
 }
+
+.about-image {
+    margin-top: 40px;
+}
 }
 
 /*!-----Media 1280-----*/
@@ -87,19 +92,33 @@
     /* .about {
     background-image: url(../img/about-background-small-desk-1x.png);
     background-position: right;
-} */
+}*/
 
-.about-title {
-    padding-top: 45.5px;
+.about-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    /* min-width: 1280px; */
+    /* margin: 0 auto; */
+    padding: 0;
 }
 
 .about-wrap {
-    flex-wrap: nowrap;
+    max-width: 436px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
-.about-text {
-    max-width: 436px;
-    padding-bottom: 45.5px;
+.about-title {
+
+}
+
+.about-text-top {
+    margin-bottom: 20px;
+}
+
+.about-image {
+    margin-top: 0px;
 }
 }
 
@@ -112,11 +131,9 @@
 } */
 
 .about-title {
-    padding-top: 79px;
 }
 
 .about-text {
-    max-width: 481px;
-    padding-bottom: 79px;
+    min-width: 481px;
 }
 }
