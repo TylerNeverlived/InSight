@@ -6,25 +6,43 @@
   margin-bottom: 80px;
 }
 /**--------------Title----------------- */
-.your-order {
+/* .your-order {
   display: flex;
   align-items: center;
   flex-direction: column;
   margin: 0 auto;
+} */
+
+.order {
+  margin: 0 auto;
+  background-image: url(../img/order/girl-in-green-vyshyvanka.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 375px 550px;
+  max-width: 375px;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .order {
+    background-image: url(../img/order/girl-in-green-vyshyvanka_2x.jpg);
+  }
 }
 
 .order-continer {
-  position: relative;
+  padding-top: 630px;
+  /* position: relative;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  column-gap: 50px;
+  column-gap: 50px; */
 }
 .botoom-container {
   display: none;
 }
-.ornament-container {
+/* .ornament-container {
   position: absolute;
   bottom: 0px;
   background-image: url(../img/order/elements.png);
@@ -37,100 +55,107 @@
   padding: 0px 0.731px 0.539px 0px;
   justify-content: center;
   align-items: center;
-}
+} */
+/* 
 .img-vyshyvanka-container {
   position: relative;
   display: block;
   z-index: 1;
   width: 524px;
   margin-left: 64px;
-}
+} */
 
 .container-title-form {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   gap: 40px;
-  width: 100%;
+  width: 100%; */
   /* padding: 0px 20px; */
 }
 .title-form {
   color: #fcf9f9;
-  /* font-family: Manrope; */
   font-size: 32px;
-  /* font-style: normal; */
   font-weight: 500;
-  line-height: 44px; /* зазнач одыныцю вымиру '1.4' */
-  letter-spacing: -0.0002em; /* зазнач одыныцю вымиру в 'em' */
+  line-height: 1.4;
+  letter-spacing: -0.03em;
 }
 .title-form-span {
   color: #ecd979;
 }
 
 /** --------------Form---------------- */
+
 .inputs {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  align-self: stretch;
+  margin: 40px 0 40px 0;
+  /* align-self: stretch; */
 }
 .input-wrapper {
-  display: flex;
+  /* display: flex;
   width: 100%;
   flex-direction: column;
-  gap: 12px;
+  gap: 12px; */
 }
 .input-group__input {
-  display: flex;
+  /* display: flex; */
+  outline: none;
+  border: none;
   width: 100%;
   padding: 14px 16px;
-  align-items: flex-start;
-  gap: 8px;
+  /* align-items: flex-start;
+  gap: 8px; */
   border-radius: 15px;
+  border: none;
   border: 1px solid rgba(252, 249, 249, 0.1);
   background-color: transparent;
   color: rgba(252, 249, 249, 0.5);
   font-size: 14px;
-  letter-spacing: -0.0175em;
+  letter-spacing: -0.02em;
 }
-.input-group__input:focus {
-  border: 1px solid rgba(252, 249, 249, 0.6);
-  color: #fcf9f9;
-}
+.input-group__input:focus,
 .input-group__input:hover {
   border: 1px solid rgba(252, 249, 249, 0.6);
   color: #fcf9f9;
 }
-.comment-wrapper {
+/* . {
+  border: 1px solid rgba(252, 249, 249, 0.6);
+  color: #fcf9f9;
+} */
+/* .comment-wrapper {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 6px;
-}
+} */
 .textarea-form {
-  display: flex;
+  outline: none;
+  border: none;
+  /* display: flex; */
   width: 100%;
   height: 196px;
   padding: 14px 16px;
-  align-items: flex-start;
-  gap: 8px;
+  /* align-items: flex-start; */
+  /* gap: 8px; */
   border-radius: 15px;
   border: 1px solid rgba(252, 249, 249, 0.1);
   background-color: transparent;
   color: rgba(252, 249, 249, 0.5);
   font-size: 14px;
-
-  letter-spacing: -0.0175em;
+  letter-spacing: -0.02em;
   resize: none;
 }
-.textarea-form:focus {
-  border: 1px solid rgba(252, 249, 249, 0.6);
-  color: #fcf9f9;
-}
-
+.textarea-form:focus,
 .textarea-form:hover {
   border: 1px solid rgba(252, 249, 249, 0.6);
   color: #fcf9f9;
 }
+
+/* .textarea-form:hover {
+  border: 1px solid rgba(252, 249, 249, 0.6);
+  color: #fcf9f9;
+} */
 /**--------------Button--------------- */
 .button {
   display: flex;
@@ -144,7 +169,7 @@
   border: 1px solid rgba(252, 249, 249, 0.1);
   background-color: transparent;
   color: #fcf9f9;
-  font-family: Manrope;
+  /* font-family: Manrope; */
   font-size: 14px;
   font-weight: 600;
   letter-spacing: -0.035em;
@@ -152,59 +177,107 @@
   margin: 20px auto;
 }
 
-.button:focus {
-  border-radius: 15px;
-  border: 1px solid #ecd979;
-}
-
+.button:focus,
 .button:hover {
   border-radius: 15px;
   border: 1px solid #ecd979;
 }
-@media screen and (min-width: 375px) {
-  /* .container {
+
+/* .button:hover {
+  border-radius: 15px;
+  border: 1px solid #ecd979;
+} */
+/* @media screen and (min-width: 375px) {
+  .container {
       max-width: 375px;
-  } */
-}
-@media screen and (min-width: 768px) and (max-width: 1280px) {
+  }
+} */
+@media screen and (min-width: 768px) {
   /* .container {
       max-width: 768px;
   } */
+  .second-background {
+    margin: 0 auto;
+    background-image: url(../img/order/girl-in-green-vyshyvanka_tablet.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 768px 776px;
+    max-width: 768px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .second-background {
+      background-image: url(../img/order/girl-in-green-vyshyvanka_tablet_2x.jpg);
+    }
+  }
+
+  .order-continer {
+    padding-top: 876px;
+    /* position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  column-gap: 50px; */
+  }
+
   .botoom-container {
     display: block;
     margin-top: 100px;
     padding-bottom: 79px;
   }
   .container-title-form {
-    width: 542px;
-    padding: 0px;
-    margin-left: 32px;
+    /* width: 542px;
+    padding: 0px; */
+    /* margin-left: 32px; */
   }
   .title-form {
     font-size: 44px;
-    line-height: 58px; /* 137.5% */
-    letter-spacing: -0.0825px;
+    line-height: 1.3;
+    letter-spacing: -0.03em; /* 1.32/44 */
+    max-width: 542px;
   }
   .inputs {
     width: 508px;
   }
   .button {
     margin: 0;
-    margin-top: 20px;
+    /* margin-top: 20px; */
   }
   .img-vyshyvanka-container {
     width: 638px;
+    position: relative;
+    left: 66px;
   }
-  .img-vyshyvanka-container {
+  /* .img-vyshyvanka-container {
     margin-left: 98px;
-  }
-  .img-vyshyvanka-container img {
+  } */
+  /* .img-vyshyvanka-container img {
     width: 638px;
     height: 521px;
-  }
-  .ornament-container {
+  } */
+  /* .ornament-container {
     background-size: 310px 484px;
     width: 310px;
+  } */
+
+  .order {
+    margin: 0 auto;
+    background-image: url(../img/order/elements.png);
+    background-repeat: no-repeat;
+    background-position: bottom 100px left;
+    background-size: auto 445px;
+    max-width: 768px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .order {
+      background-image: url(../img/order/elements_2x.png);
+    }
   }
 }
 @media screen and (min-width: 1280px) {
@@ -246,7 +319,7 @@
     max-width: 1440px;
   } */
   .title-form {
-    width: 666px;
+    /* width: 666px; */
     letter-spacing: -1.32px;
   }
 }
