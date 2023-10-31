@@ -1,6 +1,5 @@
 .header {
   padding-bottom: 80px;
-
 }
 .logo-svg {
   background-color: transparent;
@@ -101,7 +100,7 @@
   margin-left: 12px;
 }
 
-/* .backdrop {
+.backdrop {
   position: fixed;
   top: 0;
   width: 100%;
@@ -109,23 +108,24 @@
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  z-index: 99;
-} */
+  z-index: 1;
+}
 
 .mob-menu {
+  position: absolute;
   width: 274px;
   height: 100%;
   background-color: #ecd979;
   top: 0;
   right: -274px;
   position: fixed;
-  z-index: 99;
-  opacity: 1;
+  z-index: 2;
+  /* opacity: 1;
   visibility: visible;
-  pointer-events: auto;
-  /* opacity: 0;
-  visibility: hidden;
   pointer-events: auto; */
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: auto;
   transition: right 0.3s ease-in-out;
   padding-top: 20px;
   padding-right: 20px;
@@ -136,12 +136,12 @@
   background-position: bottom;
 }
 
-/* .is-open {
+.is-open {
   display: block;
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
-} */
+}
 
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
@@ -294,8 +294,7 @@
 }
 
 @media screen and (min-width: 1440px) {
-
   .header-container {
     margin-top: 18px;
-    }
+  }
 }
