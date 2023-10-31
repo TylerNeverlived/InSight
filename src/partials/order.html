@@ -1,0 +1,127 @@
+<section class="your-order">
+  <div class="container">
+    <picture class="bg-image">
+      <source
+        class="background-image"
+        srcset="
+          ./img/order/girl-in-green-vyshyvanka.jpg    1x,
+          ./img/order/girl-in-green-vyshyvanka_2x.jpg 2x
+        "
+        type="image/jpeg"
+        media="(max-width:767px)"
+      />
+      <source
+        class="background-image"
+        srcset="
+          ./img/order/girl-in-green-vyshyvanka_tablet.jpg    1x,
+          ./img/order/girl-in-green-vyshyvanka_tablet_2x.jpg 2x
+        "
+        type="image/jpeg"
+        media="(max-width:1279px)"
+      />
+      <source
+        class="background-image"
+        srcset="
+          ./img/order/girl-in-green-vyshyvanka_pc.jpg    1x,
+          ./img/order/girl-in-green-vyshyvanka_pc_2x.jpg 2x
+        "
+        type="image/jpeg"
+        media="(max-width:1419px)"
+      />
+      <source
+        class="background-image"
+        srcset="
+          ./img/order/girl-in-green-vyshyvanka_pc_large.jpg    1x,
+          ./img/order/girl-in-green-vyshyvanka_pc_large_2x.jpg 2x
+        "
+        type="image/jpeg"
+        media="(min-width:1440px)"
+      />
+      <img
+        class="background-image"
+        src="./img/order/girl-in-green-vyshyvanka_pc.jpg"
+        alt=""
+      />
+    </picture>
+    <div class="order-continer">
+      <div class="container-title-form">
+        <h3 class="title-form">
+          <span class="title-form-span">Your order</span> is our priority:
+          Personalized approach and quality of service
+        </h3>
+        <form name="feedback_form" autocomplete="off">
+          <div class="inputs">
+            <div class="input-wrapper">
+              <label class="label-text" for="user-name"></label>
+              <div class="input-group">
+                <input
+                  class="input-group__input"
+                  placeholder="Enter your full name"
+                  name="user-name"
+                  id="user-name"
+                  type="text"
+                />
+              </div>
+            </div>
+            <div class="input-wrapper">
+              <label for="user-email" class="label-text"></label>
+              <div class="input-group">
+                <input
+                  class="input-group__input"
+                  placeholder="Enter your email"
+                  id="user-email"
+                  type="email"
+                  name="user-email"
+                />
+              </div>
+            </div>
+            <div class="comment-wrapper">
+              <label class="label-text" for="user-comment"></label>
+              <textarea
+                name="user-comment"
+                placeholder="Comments"
+                class="textarea-form"
+                id="user-comment"
+              ></textarea>
+            </div>
+            <button type="submit" class="button">
+              Send
+              <svg width="26" height="10" class="svg-btn">
+                <use href="../img/icons.svg#icon-icon-for-button-order"></use>
+              </svg>
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <div class="botoom-container">
+        <div class="ornament-container"></div>
+        <picture class="img-vyshyvanka-container">
+          <source
+            class="img-vyshyvanka"
+            srcset="
+              ./img/order/vyshyvanka.jpg    1x,
+              ./img/order/vyshyvanka_2x.jpg 2x
+            "
+            type="image/jpeg"
+            media="(max-width:1280px)"
+          />
+          <source
+            class="img-vyshyvanka"
+            srcset="
+              ./img/order/vyshyvanka_pc.jpg    1x,
+              ./img/order/vyshyvanka_pc_2x.jpg 2x
+            "
+            type="image/jpeg"
+            media="(min-width:1280px)"
+          />
+          <img
+            class="img-vyshyvanka"
+            src="./img/order/vyshyvanka_pc.jpg"
+            alt=""
+          />
+        </picture>
+      </div>
+    </div>
+  </div>
+</section>
