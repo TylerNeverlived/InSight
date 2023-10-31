@@ -1,5 +1,5 @@
-body{
-    background-color: #1c2225;
+body {
+  background-color: #1c2225;
 }
 /** -------------IMAGE----------------- */
 .background-image {
@@ -13,7 +13,7 @@ body{
   margin: 0 auto;
 }
 
-.order-continer{
+.order-continer {
   position: relative;
   width: 100%;
   display: flex;
@@ -21,10 +21,10 @@ body{
   justify-content: flex-end;
   column-gap: 50px;
 }
-.botoom-container{
+.botoom-container {
   display: none;
 }
-.ornament-container{
+.ornament-container {
   position: absolute;
   bottom: 0px;
   background-image: url(../img/order/elements.png);
@@ -38,7 +38,7 @@ body{
   justify-content: center;
   align-items: center;
 }
-.img-vyshyvanka-container{
+.img-vyshyvanka-container {
   position: relative;
   display: block;
   z-index: 1;
@@ -161,21 +161,21 @@ body{
   border-radius: 15px;
   border: 1px solid #ecd979;
 }
-@media screen and (min-width: 375px){
-  .container {
+@media screen and (min-width: 375px) {
+  /* .container {
       max-width: 375px;
-  }
+  } */
 }
 @media screen and (min-width: 768px) and (max-width: 1280px) {
-  .container {
+  /* .container {
       max-width: 768px;
-  }
-  .botoom-container{
+  } */
+  .botoom-container {
     display: block;
     margin-top: 100px;
     padding-bottom: 79px;
   }
-  .container-title-form{
+  .container-title-form {
     width: 542px;
     padding: 0px;
     margin-left: 32px;
@@ -185,36 +185,36 @@ body{
     line-height: 58px; /* 137.5% */
     letter-spacing: -0.0825px;
   }
-  .inputs{
+  .inputs {
     width: 508px;
   }
-  .button{
+  .button {
     margin: 0;
     margin-top: 20px;
   }
-  .img-vyshyvanka-container{
+  .img-vyshyvanka-container {
     width: 638px;
   }
-  .img-vyshyvanka-container{
+  .img-vyshyvanka-container {
     margin-left: 98px;
   }
-  .img-vyshyvanka-container img{
+  .img-vyshyvanka-container img {
     width: 638px;
     height: 521px;
   }
-  .ornament-container{
+  .ornament-container {
     background-size: 310px 484px;
     width: 310px;
   }
 }
-@media screen and (min-width: 1280px){
-  .botoom-container{
+@media screen and (min-width: 1280px) {
+  .botoom-container {
     display: block;
   }
-  .container {
+  /* .container {
       max-width: 1280px;
-  }
-  .order-continer{
+  } */
+  .order-continer {
     flex-direction: row-reverse;
     height: 640px;
   }
@@ -233,19 +233,19 @@ body{
   .inputs {
     width: 508px;
   }
-  .button{
+  .button {
     margin: 0;
     margin-top: 20px;
   }
 }
 @media screen and (min-width: 1440px) {
-  .img-vyshyvanka-container{
+  .img-vyshyvanka-container {
     margin-left: 100px;
   }
-  .container {
+  /* .container {
     max-width: 1440px;
-  }
-  .title-form{
+  } */
+  .title-form {
     width: 666px;
     letter-spacing: -1.32px;
   }
