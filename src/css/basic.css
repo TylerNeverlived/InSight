@@ -1,3 +1,8 @@
+body {
+  background-color: #1c2225;
+  font-family: 'Manrope', sans-serif;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -16,8 +21,13 @@
   max-width: 1255px;
   padding-left: 15px;
   padding-right: 15px;
+  /* padding-bottom: 80px; */
   margin: 0 auto;
   outline: 2px solid red;
+}
+
+section {
+  padding-bottom: 80px;
 }
 
 .list {
@@ -28,7 +38,17 @@
   text-decoration: none;
 }
 
-@media screen and (min-width: 320px) and (min-width: 374px) {
+.backdrop {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  /* opacity: 0; */
+  visibility: hidden;
+  pointer-events: none;
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
   .container {
     width: 100%;
   }
@@ -38,17 +58,29 @@
   .container {
     max-width: 365px;
   }
+
+  section {
+    padding-bottom: 80px;
+  }
 }
 
 @media screen and (min-width: 768px) {
   .container {
     max-width: 734px;
   }
+
+  section {
+    padding-bottom: 100px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
   .container {
     max-width: 1110px;
+  }
+
+  section {
+    padding-bottom: 150px;
   }
 }
 

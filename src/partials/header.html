@@ -1,7 +1,101 @@
-<header>
-  <p>
-    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam officiis
-    atque impedit earum enim ut dolorem itaque qui nesciunt, illum,
-    reprehenderit suscipit fuga vel repellendus odio eos ex ullam asperiores!
-  </p>
+<header class="header">
+  <div class="container header-container">
+    <nav class="header-nav">
+      <a href="./index.html" class="header-logo"
+        ><img
+          src="./img/logo.svg"
+          class="logo-svg"
+          alt="Site logo"
+          width="44"
+          height="39"
+      /></a>
+      <ul class="header-nav-list">
+        <li class="header-nav-item"><a href="#about">About us</a></li>
+        <li class="header-nav-item">
+          <a href="#collection">Our collection</a>
+        </li>
+        <li class="header-nav-item"><a href="#order">CUSTOMER ORDER</a></li>
+        <li class="header-nav-item">
+          <a href="#testimonials">Testimonials</a>
+        </li>
+      </ul>
+    </nav>
+    <address class="address">
+      <ul class="address-list">
+        <li class="address-list-item">
+          <a href="tel:+380 (68) 443-94-26">+380 (68) 443-94-26</a>
+        </li>
+      </ul>
+    </address>
+    <div class="header-social">
+      <ul class="header-soc-list">
+        <li class="header-soc-item">
+          <a
+            href="https://www.facebook.com/goITclub/"
+            class="soc-item-link"
+            target="_blank"
+            rel="noopener norefferer"
+          >
+            <svg width="28" height="28" fill="#FCF9F9">
+              <use href="./img/social-icons.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="header-soc-item">
+          <a
+            href="https://www.instagram.com/goitclub/"
+            class="soc-item-link"
+            target="_blank"
+            rel="noopener norefferer"
+            ><svg width="28" height="28" fill="#FCF9F9">
+              <use href="./img/social-icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="header-soc-item">
+          <a
+            href="https://www.youtube.com/c/GoIT"
+            class="soc-item-link"
+            target="_blank"
+            rel="noopener norefferer"
+            ><svg width="28" height="28" fill="#FCF9F9">
+              <use href="./img/social-icons.svg#icon-youtube"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+      <button type="button" class="menu-open-btn" id="menu-button">
+        <svg class="menu-icon" width="36" height="24">
+          <use href="./img/social-icons.svg#icon-menu-icon"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+  <!-- <div class="backdrop" id="backdrop-for-menu"> -->
+  <div class="mob-menu" id="mobile-menu">
+    <div class="mob-container">
+      <address class="mob-address">
+        <ul class="mob-address-list">
+          <li class="mob-address-item">
+            <a href="tel:+380 (68) 443-94-26">+380 (68) 443-94-26</a>
+          </li>
+        </ul>
+      </address>
+      <button type="button" class="close-mob-btn" id="close-button">
+        <svg class="close-menu-icon" width="36" height="36">
+          <use href="./img/social-icons.svg#icon-close-menu"></use>
+        </svg>
+      </button>
+    </div>
+    <div class="mob-nav">
+      <ul class="mob-nav-list">
+        <li class="mob-nav-item"><a href="#about">About us</a></li>
+        <li class="mob-nav-item"><a href="#collection">Our collection</a></li>
+        <li class="mob-nav-item"><a href="#order">CUSTOMER ORDER</a></li>
+        <li class="mob-nav-item"><a href="#testimonials">TEstimonials</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="backdrop" id="backdrop-for-menu"></div>
+  <script src="./test.js"></script>
 </header>
