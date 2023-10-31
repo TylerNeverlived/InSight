@@ -27,6 +27,7 @@
   flex-wrap: wrap;
   gap: 40px 25px;
 }
+
 .footer-list-item {
   color: #fcf9f9;
   font-size: 14px;
@@ -62,9 +63,19 @@
     gap: 80px 25px;
     /* margin-bottom: 40px; */
   }
+
+  .footer-list li:nth-child(2) {
+    order: 3;
+  }
+
+  .footer-list li:nth-child(4) {
+    order: 3;
+  }
+
   .footer-list-item {
     min-width: 67px;
   }
+
   .footer-container {
     padding-top: 40px;
     padding-bottom: 40px;
