@@ -302,7 +302,7 @@
     margin: 0 auto;
     background-image: url(../img/order/elements-desktope1x.png);
     background-repeat: no-repeat;
-    background-position: bottom 100px left;
+    background-position: bottom 150px left;
     background-size: auto 445px;
     max-width: 1280px;
   }
@@ -366,6 +366,40 @@
   }
 }
 @media screen and (min-width: 1440px) {
+  .second-background {
+    margin: 0 auto;
+    background-image: url(../img/order/girl-in-green-vyshyvanka_pc_large.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 1440px 776px;
+    max-width: 1440px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .second-background {
+      background-image: url(../img/order/girl-in-green-vyshyvanka_pc_large_2x.jpg);
+    }
+  }
+
+  .order {
+    margin: 0 auto;
+    background-image: url(../img/order/elements-desktope-large1x.png);
+    background-repeat: no-repeat;
+    background-position: bottom 150px left;
+    background-size: 325px 484px;
+    max-width: 1440px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .order {
+      background-image: url(../img/order/elements-desktope-large2x.png);
+    }
+  }
+
   .img-vyshyvanka-container {
     margin-left: 100px;
   }
