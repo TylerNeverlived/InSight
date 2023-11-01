@@ -18,12 +18,12 @@ body {
 
 .container {
   width: 100%;
-  max-width: 1255px;
+  /* max-width: 1255px; */
   padding-left: 15px;
   padding-right: 15px;
   /* padding-bottom: 80px; */
   margin: 0 auto;
-  /* outline: 2px solid red; */
+  outline: 2px solid red;
 }
 
 section {

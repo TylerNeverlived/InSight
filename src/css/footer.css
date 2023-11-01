@@ -84,9 +84,10 @@
   .footer-text {
     display: block;
     max-width: 521px;
+    /* max-width: 192px; */
     color: #fcf9f9;
     font-size: 54px;
-    line-height: 1.2x; /* 118.519% */
+    line-height: 1.18; /* 118.519% */
     letter-spacing: -0.03em;
   }
 
