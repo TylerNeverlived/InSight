@@ -25,7 +25,7 @@
 .footer-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 40px 25px;
+  gap: 25px 40px;
 }
 
 .footer-list-item {
@@ -60,7 +60,7 @@
 @media screen and (min-width: 768px) {
   .footer-list {
     flex-wrap: wrap;
-    gap: 80px 25px;
+    gap: 25px;
     /* margin-bottom: 40px; */
   }
 
