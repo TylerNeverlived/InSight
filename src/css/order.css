@@ -355,7 +355,7 @@
   .title-form {
     font-size: 44px;
     line-height: 58px;
-    letter-spacing: -1.32;
+    letter-spacing: -0.03em; /* 1.32/44 */
   }
   .inputs {
     width: 508px;
@@ -400,14 +400,15 @@
     }
   }
 
-  .img-vyshyvanka-container {
+  /* .img-vyshyvanka-container {
     margin-left: 100px;
-  }
+  } */
   /* .container {
     max-width: 1440px;
   } */
   .title-form {
-    /* width: 666px; */
-    letter-spacing: -1.32px;
+    display: block;
+    min-width: 666px;
+    /* letter-spacing: -1.32px; */
   }
 }
