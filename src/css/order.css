@@ -336,9 +336,15 @@
   }
 
   .img-vyshyvanka-container {
-    width: 638px;
     position: relative;
     left: 0px;
+    /* min-width: 524px;
+    min-height: 521px; */
+  }
+
+  .img-vyshyvanka {
+    min-width: 524px;
+    min-height: 521px;
   }
 
   .botoom-container {
@@ -406,6 +412,13 @@
   /* .container {
     max-width: 1440px;
   } */
+
+  .img-vyshyvanka-container {
+    width: 638px;
+    position: relative;
+    left: 0px;
+  }
+
   .title-form {
     display: block;
     min-width: 666px;
