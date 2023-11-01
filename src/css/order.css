@@ -1,18 +1,9 @@
-/* body {
-  background-color: #1c2225;
-} */
+
 /** -------------IMAGE----------------- */
 .background-image {
   margin-bottom: 80px;
 }
 /**--------------Title----------------- */
-/* .your-order {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  margin: 0 auto;
-} */
-
 .order {
   margin: 0 auto;
   background-image: url(../img/order/girl-in-green-vyshyvanka.jpg);
@@ -32,46 +23,11 @@
 
 .order-continer {
   padding-top: 630px;
-  /* position: relative;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  column-gap: 50px; */
 }
 .botoom-container {
   display: none;
 }
-/* .ornament-container {
-  position: absolute;
-  bottom: 0px;
-  background-image: url(../img/order/elements.png);
-  background-repeat: no-repeat;
-  background-position: right bottom;
-  background-size: 322px 484px;
-  display: flex;
-  width: 289px;
-  height: 484px;
-  padding: 0px 0.731px 0.539px 0px;
-  justify-content: center;
-  align-items: center;
-} */
-/* 
-.img-vyshyvanka-container {
-  position: relative;
-  display: block;
-  z-index: 1;
-  width: 524px;
-  margin-left: 64px;
-} */
 
-.container-title-form {
-  /* display: flex;
-  flex-direction: column;
-  gap: 40px;
-  width: 100%; */
-  /* padding: 0px 20px; */
-}
 .title-form {
   color: #fcf9f9;
   font-size: 32px;
@@ -90,22 +46,12 @@
   flex-direction: column;
   gap: 20px;
   margin: 40px 0 40px 0;
-  /* align-self: stretch; */
-}
-.input-wrapper {
-  /* display: flex;
-  width: 100%;
-  flex-direction: column;
-  gap: 12px; */
 }
 .input-group__input {
-  /* display: flex; */
   outline: none;
   border: none;
   width: 100%;
   padding: 14px 16px;
-  /* align-items: flex-start;
-  gap: 8px; */
   border-radius: 15px;
   border: none;
   border: 1px solid rgba(252, 249, 249, 0.1);
@@ -119,25 +65,12 @@
   border: 1px solid rgba(252, 249, 249, 0.6);
   color: #fcf9f9;
 }
-/* . {
-  border: 1px solid rgba(252, 249, 249, 0.6);
-  color: #fcf9f9;
-} */
-/* .comment-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 6px;
-} */
 .textarea-form {
   outline: none;
   border: none;
-  /* display: flex; */
   width: 100%;
   height: 196px;
   padding: 14px 16px;
-  /* align-items: flex-start; */
-  /* gap: 8px; */
   border-radius: 15px;
   border: 1px solid rgba(252, 249, 249, 0.1);
   background-color: transparent;
@@ -151,11 +84,6 @@
   border: 1px solid rgba(252, 249, 249, 0.6);
   color: #fcf9f9;
 }
-
-/* .textarea-form:hover {
-  border: 1px solid rgba(252, 249, 249, 0.6);
-  color: #fcf9f9;
-} */
 /**--------------Button--------------- */
 .button {
   display: flex;
@@ -169,7 +97,6 @@
   border: 1px solid rgba(252, 249, 249, 0.1);
   background-color: transparent;
   color: #fcf9f9;
-  /* font-family: Manrope; */
   font-size: 14px;
   font-weight: 600;
   letter-spacing: -0.035em;
@@ -183,19 +110,7 @@
   border: 1px solid #ecd979;
 }
 
-/* .button:hover {
-  border-radius: 15px;
-  border: 1px solid #ecd979;
-} */
-/* @media screen and (min-width: 375px) {
-  .container {
-      max-width: 375px;
-  }
-} */
 @media screen and (min-width: 768px) {
-  /* .container {
-      max-width: 768px;
-  } */
   .second-background {
     margin: 0 auto;
     background-image: url(../img/order/girl-in-green-vyshyvanka_tablet.jpg);
@@ -215,12 +130,6 @@
 
   .order-continer {
     padding-top: 876px;
-    /* position: relative;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  column-gap: 50px; */
   }
 
   .botoom-container {
@@ -228,15 +137,10 @@
     margin-top: 100px;
     padding-bottom: 79px;
   }
-  .container-title-form {
-    /* width: 542px;
-    padding: 0px; */
-    /* margin-left: 32px; */
-  }
   .title-form {
     font-size: 44px;
     line-height: 1.3;
-    letter-spacing: -0.03em; /* 1.32/44 */
+    letter-spacing: -0.03em;
     max-width: 542px;
   }
   .inputs {
@@ -244,24 +148,12 @@
   }
   .button {
     margin: 0;
-    /* margin-top: 20px; */
   }
   .img-vyshyvanka-container {
     width: 638px;
     position: relative;
     left: 66px;
   }
-  /* .img-vyshyvanka-container {
-    margin-left: 98px;
-  } */
-  /* .img-vyshyvanka-container img {
-    width: 638px;
-    height: 521px;
-  } */
-  /* .ornament-container {
-    background-size: 310px 484px;
-    width: 310px;
-  } */
 
   .order {
     margin: 0 auto;
@@ -324,22 +216,13 @@
     justify-content: flex-end;
     column-gap: 50px;
   }
-  /* .botoom-container {
-    display: block;
-  } */
-  /* .container {
-      max-width: 1280px;
-  } */
   .order-continer {
     flex-direction: row-reverse;
-    /* height: 640px; */
   }
 
   .img-vyshyvanka-container {
     position: relative;
     left: 0px;
-    /* min-width: 524px;
-    min-height: 521px; */
   }
 
   .img-vyshyvanka {
@@ -350,10 +233,6 @@
   .botoom-container {
     margin: 0;
   }
-
-  /* .background-image {
-    margin-bottom: 150px;
-  } */
   .container-title-form {
     width: 542px;
     padding: 0px;
@@ -361,7 +240,8 @@
   .title-form {
     font-size: 44px;
     line-height: 58px;
-    letter-spacing: -0.03em; /* 1.32/44 */
+    letter-spacing: -0.03em; 
+    width: 542px;
   }
   .inputs {
     width: 508px;
@@ -406,13 +286,6 @@
     }
   }
 
-  /* .img-vyshyvanka-container {
-    margin-left: 100px;
-  } */
-  /* .container {
-    max-width: 1440px;
-  } */
-
   .img-vyshyvanka-container {
     width: 638px;
     position: relative;
@@ -422,6 +295,5 @@
   .title-form {
     display: block;
     min-width: 666px;
-    /* letter-spacing: -1.32px; */
   }
 }
