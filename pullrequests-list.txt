@@ -20,3 +20,6 @@ https://github.com/TylerNeverlived/InSight/pull/19
 https://github.com/TylerNeverlived/InSight/pull/20
 https://github.com/TylerNeverlived/InSight/pull/21
 https://github.com/TylerNeverlived/InSight/pull/22
+https://github.com/TylerNeverlived/InSight/pull/23
+https://github.com/TylerNeverlived/InSight/pull/24
+https://github.com/TylerNeverlived/InSight/pull/25
