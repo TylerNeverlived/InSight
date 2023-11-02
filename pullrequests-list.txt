@@ -23,3 +23,5 @@ https://github.com/TylerNeverlived/InSight/pull/22
 https://github.com/TylerNeverlived/InSight/pull/23
 https://github.com/TylerNeverlived/InSight/pull/24
 https://github.com/TylerNeverlived/InSight/pull/25
+https://github.com/TylerNeverlived/InSight/pull/26
+https://github.com/TylerNeverlived/InSight/pull/27
