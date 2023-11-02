@@ -147,18 +147,4 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
-  .footer {
-    background-image: url(../img/bacground-footer-desktop1440-1x.png);
-    background-size: 496px 363px;
-    max-width: 1440px;
-  }
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .footer {
-      background-image: url(../img/bacground-footer-desktop1440-2x.png);
-    }
-  }
-}
 /* test */
