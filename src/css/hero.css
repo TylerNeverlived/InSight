@@ -14,10 +14,19 @@
 .text-style-1 {
   color: #ecd979;
 }
+.hero-anchor-btn {
+      color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal;
+    padding: 12px 28px;
+    border-radius: 100px;
+    border: 1px solid #fff;
+    transition: color 300ms linear, border-color 300ms linear;
+}
 .hero-btn {
   background: #1c2225;
   display: inline-flex;
-
   justify-content: center;
   align-items: center;
   gap: 10px;
@@ -91,7 +100,7 @@
   }
   .hero-image {
     width: 335px;
-
+    height: 545px;
     background: lightgray 50% / cover no-repeat;
     max-width: 100%;
   }
@@ -133,7 +142,6 @@
   }
   .hero-image {
     width: 335px;
-    height: 545px;
     background: lightgray 50% / cover no-repeat;
     max-width: 100%;
   }
