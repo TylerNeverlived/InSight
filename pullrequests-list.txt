@@ -17,3 +17,6 @@ https://github.com/TylerNeverlived/InSight/pull/16
 https://github.com/TylerNeverlived/InSight/pull/17
 https://github.com/TylerNeverlived/InSight/pull/18
 https://github.com/TylerNeverlived/InSight/pull/19
+https://github.com/TylerNeverlived/InSight/pull/20
+https://github.com/TylerNeverlived/InSight/pull/21
+https://github.com/TylerNeverlived/InSight/pull/22
