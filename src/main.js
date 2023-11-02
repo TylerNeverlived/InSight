@@ -35,10 +35,10 @@ function handleTabletMediaQuery(event) {
     overlay.classList.remove('is-open');
   });
 
-  menuLinks.addEventListener('click', function () {
-    mobileMenu.style.right = '-380px';
-    overlay.classList.remove('is-open');
-  });
+  // menuLinks.addEventListener('click', function () {
+  //   mobileMenu.style.right = '-380px';
+  //   overlay.classList.remove('is-open');
+  // });
 }
 
 // mediaQuery.addListener(handleTabletMediaQuery); // Attach the event listener
