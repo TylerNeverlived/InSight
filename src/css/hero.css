@@ -149,9 +149,30 @@
   .embroidery {
     display: none;
   }
+
   .cloth {
     display: none;
   }
+}
+
+@media screen and (min-width: 768px) {
+  #loading-spinner {
+      animation-name: spin;
+      animation-duration: 3s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      animation-play-state: running;
+    }
+  
+    @keyframes spin {
+      from {
+        transform: rotate(0deg);
+      }
+  
+      to {
+        transform: rotate(360deg);
+      }
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
@@ -196,6 +217,7 @@
     top: 0;
     right: 32px;
   }
+  
   .cloth {
     width: 157px;
     height: 0px;
