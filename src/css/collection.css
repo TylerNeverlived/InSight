@@ -38,6 +38,12 @@
 .collection-picture {
 }
 
+.collection-picture:hover img {
+  border: 1px solid #ecd979;
+  transform: scale(1.05);
+  transition: transform 0.5s ease-in-out;
+}
+
 .collection-img {
   border-radius: 4px;
   display: block;
